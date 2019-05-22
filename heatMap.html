@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script> -->
+    <script type="text/javascript" src="mapInit.js"></script>
+
+    <title>HeatMap</title>
+
+  </head>
+  <body>
+    
+ <!--Copy from FileReaderTest, creates button and header-->
+    <p>Upload Employee Info:</p>
+    <input type="file" id="employee-input" />
+    <!--<pre id="file-content"></pre>-->
+
+    <p>Upload Account Locations:</p>
+    <input type="file" id="account-input" />
+    <pre id="file-content"></pre>
+
+
+    
+    <div id="map"></div>
+<!--     <div id = "barChart"></div> -->
+
+    
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=(API-KEY-REMOVED-FOR-GITHUB)&callback=initMap&libraries=visualization">
+    </script>
+  </body>
+</html>
