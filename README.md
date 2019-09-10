@@ -1,7 +1,7 @@
 # HeatmapAnalysis
 
 ## Current State
-Not functioning after splitting into standalone files.  Issue with event wiring.  Most likely needs to be moved to an init function.
+Requires a Google Maps API Key.  You can get a 'free' limited-use key from: https://developers.google.com/maps/documentation/
 
 
 ## Goal
